@@ -41,9 +41,9 @@ jobs:
             echo   '5: ${{ inputs.message }}'
 
         - name: run tests (if selected)
-          if: ${{ inputs.run-tests == 'true' }}
+          if: ${{ inputs.run-tests == true }}
           run: echo 'Testing.......'
-          
+
 
 
 
