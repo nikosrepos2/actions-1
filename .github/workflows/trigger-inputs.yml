@@ -22,11 +22,11 @@ on:
             build-number:
                 description: 'custom build number'
                 type: number
-                required: false
+                required: true
             message:
                 description: "Additional message"
                 type: string
-                required: false
+                required: true
 
 jobs:
     build-and-deploy:
